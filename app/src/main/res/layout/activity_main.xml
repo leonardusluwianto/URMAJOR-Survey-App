@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp"
+        android:background="@color/teal_200">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/description_box_element"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="25dp"
+            android:layout_marginBottom="15dp">
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26sp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/googlesans_medium"
+                android:text="@string/survei_jurusan_berdasarkan_peminatan"
+                android:layout_marginBottom="25dp"/>
+
+            <TextView
+                android:id="@+id/preface"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="@string/perkenalkan_kami_dari_tim_c22_pc409_bangkit_academy_n_nsebagai_tugas_akhir_capstone_project_dari_program_ini_kami_mengembangkan_sebuah_aplikasi_quot_rekomendasi_pemilihan_jurusan_untuk_siswa_sma_smk_quot_yang_dilengkapi_dengan_teknologi_ai_aplikasi_dapat_menampilkan_hasil_rekomendasi_jurusan_yang_sesuai_untuk_anda_berdasarkan_isian_survei_n_nkami_berharap_aplikasi_ini_dapat_membantu_anda_dalam_memilih_jurusan_sesuai_minat_anda_agar_tidak_salah_jurusan_nantinya_n_nsilakan_isi_survei_ini_terima_kasih" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/question_box_element"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="25dp"
+            android:layout_marginBottom="15dp">
+            <TextView
+                android:id="@+id/question1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="@string/jurusan_saat_sma_smk" />
+
+            <EditText
+                android:id="@+id/answer1"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:hint="@string/jawaban_anda"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/question_box_element"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="25dp"
+            android:layout_marginBottom="15dp">
+            <TextView
+                android:id="@+id/question2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="@string/minat_yang_kamu_miliki_terkait_bidang_kuliah"/>
+
+            <EditText
+                android:id="@+id/answer2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:hint="@string/jawaban_anda"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/question_box_element"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="25dp"
+            android:layout_marginBottom="15dp">
+            <TextView
+                android:id="@+id/question3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="@string/jika_kamu_memiliki_waktu_luang_apa_yang_ingin_kamu_lakukan"/>
+
+            <EditText
+                android:id="@+id/answer3"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:inputType="textMultiLine"
+                android:hint="@string/jawaban_anda"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/question_box_element"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="25dp"
+            android:layout_marginBottom="15dp">
+            <TextView
+                android:id="@+id/question4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="@string/apa_kemampuan_yang_kamu_miliki_dan_kamu_rasakan_lebih_menonjol_dibandingkan_orang_lain" />
+
+            <EditText
+                android:id="@+id/answer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:inputType="textMultiLine"
+                android:hint="@string/jawaban_anda"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/question_box_element"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="25dp"
+            android:layout_marginBottom="15dp">
+            <TextView
+                android:id="@+id/question5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="@string/apa_yang_ingin_kamu_lakukan_sebagai_bekal_untuk_berkarier_ke_depannya" />
+
+            <EditText
+                android:id="@+id/answer5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:inputType="textMultiLine"
+                android:hint="@string/jawaban_anda"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/googlesans_regular"
+            android:text="@string/submit"/>
+    </LinearLayout>
+
+</ScrollView>

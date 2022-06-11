@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "630245464265",
+    "project_id": "empyrean-cubist-344117",
+    "storage_bucket": "empyrean-cubist-344117.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630245464265:android:747b6957351cfeb9149518",
+        "android_client_info": {
+          "package_name": "com.example.urmajorsurveyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630245464265-fbfsfe7vq42lcmuegavdu6ghs46751jg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8F4SS87AK3Wbuiyl7Mg9PrOuj_qVhvoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630245464265-fbfsfe7vq42lcmuegavdu6ghs46751jg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">URMAJOR Survey App</string>
+    <string name="jurusan_kuliah_kamu_saat_ini">Jurusan kuliah kamu saat ini</string>
+    <string name="jurusan_saat_sma_smk">Jurusan saat SMA/SMK</string>
+    <string name="apa_kemampuan_yang_kamu_miliki_dan_kamu_rasakan_lebih_menonjol_dibandingkan_orang_lain">Apa kemampuan yang kamu miliki dan kamu rasakan lebih menonjol dibandingkan orang lain?</string>
+    <string name="minat_yang_kamu_miliki_terkait_bidang_kuliah">Minat yang kamu miliki terkait bidang kuliah?</string>
+    <string name="apa_yang_ingin_kamu_lakukan_sebagai_bekal_untuk_berkarier_ke_depannya">Apa yang ingin kamu lakukan sebagai bekal untuk berkarier ke depannya?</string>
+    <string name="jika_kamu_memiliki_waktu_luang_apa_yang_ingin_kamu_lakukan">Jika kamu memiliki waktu luang, apa yang ingin kamu lakukan?</string>
+    <string name="survei_jurusan_berdasarkan_peminatan">Survei Jurusan berdasarkan Peminatan</string>
+    <string name="jawaban_anda">Jawaban Anda</string>
+    <string name="perkenalkan_kami_dari_tim_c22_pc409_bangkit_academy_n_nsebagai_tugas_akhir_capstone_project_dari_program_ini_kami_mengembangkan_sebuah_aplikasi_quot_rekomendasi_pemilihan_jurusan_untuk_siswa_sma_smk_quot_yang_dilengkapi_dengan_teknologi_ai_aplikasi_dapat_menampilkan_hasil_rekomendasi_jurusan_yang_sesuai_untuk_anda_berdasarkan_isian_survei_n_nkami_berharap_aplikasi_ini_dapat_membantu_anda_dalam_memilih_jurusan_sesuai_minat_anda_agar_tidak_salah_jurusan_nantinya_n_nsilakan_isi_survei_ini_terima_kasih">Perkenalkan kami dari tim C22-PC409 Bangkit Academy.\n\nSebagai tugas akhir (capstone project) dari program ini, kami mengembangkan sebuah aplikasi \"Rekomendasi pemilihan jurusan untuk siswa SMA/SMK\" yang dilengkapi dengan teknologi AI. Aplikasi dapat menampilkan hasil rekomendasi jurusan yang sesuai untuk Anda berdasarkan isian survei.\n\nKami berharap aplikasi ini dapat membantu Anda dalam memilih jurusan sesuai minat Anda agar tidak salah jurusan nantinya. \n\nSilakan isi survei ini. Terima kasih.</string>
+    <string name="submit">Submit</string>
+</resources>

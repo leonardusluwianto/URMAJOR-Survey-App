@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private ProgressDialog progressDialog;
     private Retrofit retrofit;
     private RetrofitInterface retrofitInterface;
-    private String BASE_URL = "http://10.0.2.2:8080";
+    private String BASE_URL = "http://34.128.109.102:5000";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
